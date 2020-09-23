@@ -4,15 +4,14 @@ $allegroOrange: #FF5A00;
   height: auto;
   width: auto;
   position:fixed;
-  bottom: 2em;
-  left: 2em;
+  left: -0.2em;
+  bottom: 1em;
   background-color: white;
   color: $allegroOrange;
   border-color: $allegroOrange;
-  padding-bottom: .4em;
-  padding-top: .8em;
-  padding-left: .8em;
-  padding-top: .8em;
+  padding: 0.2em 0.1em;
+  line-height: 0;
+  font-size: 0.8em;
 }
 
 .scroll-button:hover {

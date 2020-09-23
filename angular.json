@@ -121,8 +121,13 @@
               "devServerTarget": "our-day:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "our-day"
 }

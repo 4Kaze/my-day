@@ -5,7 +5,7 @@ export interface Story {
 
 export interface StoryItem {
   text: string;
-  gif: string;
+  gif?: string;
 }
 
 export const stories: Story[] = [
@@ -13,8 +13,20 @@ export const stories: Story[] = [
     name: 'Ania S.',
     items: [
       {
-        text: 'Każdy mój dzień na stażu jest bardzo pracowity. Jako PM kalendarz od góry do dołu mam wypełniony spotkaniami, a ponadto ściśle współpracuję z niezwykle pomocnym zespołem, aby wdrożyć coraz to nowe rozwiązania na platformę. Także nie narzekam na nudę, gdyż każdy dzień stawia przede mną coraz to ciekawsze wyzwania oraz daje możliwości zdobycia nowej wiedzy i umiejętności. Dobrze tu być!',
-        gif: 'doggo.gif'
+        text: 'Każdy mój dzień na stażu jest bardzo pracowity.',
+        gif: 'cat-typing.gif'
+      },
+      {
+        text: 'Jako PM kalendarz od góry do dołu mam wypełniony spotkaniami, a ponadto ściśle współpracuję z niezwykle pomocnym zespołem.',
+        gif: 'meeting.gif'
+      },
+      {
+        text: 'Także nie narzekam na nudę, gdyż każdy dzień stawia przede mną coraz to ciekawsze wyzwania oraz daje możliwości zdobycia nowej wiedzy i umiejętności.',
+        gif: 'challenge.gif'
+      },
+      {
+        text: 'Dobrze tu być!',
+        gif: 'ok.gif'
       }
     ]
   },
@@ -32,6 +44,9 @@ export const stories: Story[] = [
       {
         text: 'Codziennie spotykam się również z moim zespołem żeby omawiać bieżące i przyszłe zadania :)',
         gif: 'teamwork.gif'
+      },
+      {
+        text: 'Pracę kończę o 16:30.'
       }
     ]
   },
@@ -88,13 +103,44 @@ export const stories: Story[] = [
     name: 'Marta',
     items: [
       {
-        text: 'Mój dzień? Niezwykle pracowity! Jako analityk danych pracuję w Excelu, tworzę ankiety i dzielę komentarze klientów na kategorie. Czy się nudzę? Nie mam na to czasu - choć zadań jest pełno, nigdy nie czuję się przytłoczona, a ich forma jest całkowicie różnorodna. Nuda i rutyna to coś co mnie nie dotyczy. Mam wspaniały zespół, który jest jak ekipa ratunkowa: zawsze gotowi do pomocy. Głupie pytanie? Zawsze jest na nie odpowiedź. Ten staż to ciągłe uświadamianie sobie, że mogę wiedzieć i umieć więcej.',
-        gif: 'marta.png'
+        text: 'Mój dzień? Niezwykle pracowity!\nWstaję około 7:00. Jem śniadanie – czasem to po prostu tosty/płatki na mleku (z zasadą: najpierw mleko potem płatki – nigdy na odwrót), a czasem bawię się w kucharza i przyrządzam szakszukę.',
+        gif: 'gif001.gif'
+      },
+      {
+        text: 'O 8:00 odpalam kompa – spędzam przy nim 8 godzin pracując. Jako analityk danych pracuję w Excelu, tworzę ankiety i dzielę komentarze klientów na kategorie.',
+        gif: 'gif002.gif'
+      },
+      {
+        text: 'Mam wspaniały zespół, który jest jak ekipa ratunkowa: zawsze gotowi do pomocy. W ciągu dnia często się z nimi kontaktuję.',
+        gif: 'gif003.gif'
+      },
+      {
+        text: 'Gdzieś w połowie dnia mam przerwę na lunch.',
+        gif: 'gif004.gif'
+      },
+      {
+        text: 'Dzień pracy kończę zazwyczaj sprawdzaniem czy o niczym nie zapomniałam. (A to odkąd raz zapomniałam o dość ważnym mailu.)',
+        gif: 'gif005.gif'
+      },
+      {
+        text: 'To tyle!'
       }
     ]
   },
   {
     name: 'Weronika',
-    items: []
+    items: [
+      {
+        text: 'Mój dzień zazwyczaj zaczyna się pomiędzy 8.00 a 8.30 i każdego dnia czekają na mnie różnego rodzaju wyzwania.',
+        gif: ''
+      },
+      {
+        text: 'Jako członek zespołu order zajmuję się funkcjonalnościami w procesie zakupowym. O 9.20 widzimy się z zespołem na daily, następnie przez cały dzień zajmuję się powierzonymi zadaniami. Przez okres stażu zajmowałam się edycją zamówienia. Każdego dnia odbywa się również jakieś spotkanie, w którym z chęcią uczestniczę.',
+        gif: ''
+      },
+      {
+        text: 'Obowiązkowo o godzinie 15 robię sobie krótką przerwę na kawę i coś słodkiego.'
+      }
+    ]
   },
 ];

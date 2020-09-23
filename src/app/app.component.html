@@ -4,9 +4,13 @@
     <ng-container ngbNavItem *ngFor="let story of stories">
       <a ngbNavLink>{{story.name}}</a>
       <ng-template ngbNavContent>
-        <div class="story-board mt-5 mb-5 text-center text-monospace" *ngFor="let item of story.items">
-          <span class="text-white">{{item.text}}</span><br />
-          <img class="shadow mt-2" src="{{'/assets/'+item.gif}}"/>
+        <div class="w-100 d-flex flex-column align-items-center">
+          <div class="w-75">
+            <div class="story-board mt-5 mb-5 text-center text-monospace" *ngFor="let item of story.items">
+              <span class="text-white">{{item.text}}</span><br/>
+              <img class="shadow mt-2 img-fluid" *ngIf="item.gif" src="{{'./assets/'+item.gif}}"/>
+            </div>
+          </div>
         </div>
       </ng-template>
     </ng-container>
@@ -15,6 +19,7 @@
   <div [ngbNavOutlet]="nav" class="mt-2"></div>
 </div>
 
-<a href="#top" class="btn btn-lg btn-outline-primary scroll-button" ngbTooltip="Na górę" pageScroll pageScrollDuration="500" [pageScrollEasing]="myEasing">
+<a href="#top" class="btn btn-lg btn-outline-primary scroll-button" ngbTooltip="Na górę" pageScroll
+   pageScrollDuration="500" [pageScrollEasing]="myEasing">
   <span class="material-icons">arrow_upward</span>
 </a>
