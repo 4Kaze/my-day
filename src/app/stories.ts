@@ -58,7 +58,7 @@ export const stories: Story[] = [
     name: 'Jacek',
     items: [
       {
-        text: 'Choć jest to dla mnie bardzo ciężkie, staram się wstać między 8:00, a 8:30.',
+        text: 'Choć jest to dla mnie bardzo ciężkie (chodzenie spać po 2, anyone?), staram się wstać między 8:00, a 8:30.',
         gif: 'cat-wakeup.gif'
       },
       {
@@ -66,7 +66,7 @@ export const stories: Story[] = [
         gif: 'cat-sandwich.gif'
       },
       {
-        text: '... i jem je przy komputerze (I know, I know), sprawdzając emaile i oglądając jakieś ciekawe prelekcje.',
+        text: '... i jem je przy komputerze (uważając żeby nie nakruszyć na klawiaturę czy broń boże wylać na nią kawę O.O), sprawdzając emaile i oglądając jakieś ciekawe prelekcje.',
         gif: 'cat-pc-1.gif'
       },
       {
@@ -74,7 +74,7 @@ export const stories: Story[] = [
         gif: 'cat-calling.gif'
       },
       {
-        text: 'i jeśli nie ma tego dnia serii spotkań, siadam do kodowania.',
+        text: 'i jeśli nie jest to jeden z tych wtorków, który jest serią wyczerpujacych spotkań, siadam do tego co lubię - kodowania.',
         gif: 'cat-typing.gif'
       },
       {
@@ -82,15 +82,19 @@ export const stories: Story[] = [
         gif: 'cat-lunch.gif'
       },
       {
-        text: 'Jeszcze więcej kodowania :)',
+        text: 'Potem jeszcze więcej kodowania :)',
         gif: 'cat-typing-2.gif'
       },
       {
-        text: 'O 15 mam call z zespołem na "kawkę" ☕',
+        text: 'O 15 mam call z zespołem na "kawkę", gdzie gadamy na luźne tematy nie związane z pracą.',
         gif: 'cat-coffee.gif'
       },
       {
-        text: 'Po spotkaniu jeszcze trochę koduję i - fajrant.',
+        text: 'Po spotkaniu jeszcze trochę pracuję',
+        gif: 'cat-work.gif'
+      },
+      {
+        text: 'i... fajrant.',
         gif: 'cat-tired.gif'
       }
     ]
