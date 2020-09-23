@@ -125,13 +125,39 @@ export const stories: Story[] = [
   },
   {
     name: 'Karol',
-    items: []
+    items: [
+      {
+        text: 'Mój dzień na stażu zaczyna się między 8:30 a 9:00.'
+      },
+      {
+        text: 'Pierwsze co robię po odpaleniu lapka to przeglądanie maili i zadań do zrobienia.',
+        gif: 'mail.gif'
+      },
+      {
+        text: 'O 9:30 mam zespołowe daily, po którym o 10:00 zdzwaniamy się na "kawkę" i luźne pogadanki.',
+        gif: 'coffe.gif'
+      },
+      {
+        text: 'Czasem zdarzą się jeszcze jakieś groomingi, ale zazwyczaj od razu po kawce zaczynam realizować zadanka (co sprowadza się głównie do programowania ;)).',
+        gif: 'programming.gif'
+      },
+      {
+        text: 'Około 14 przerwa na lunch, a później znowu programowanie.',
+        gif: 'coding.gif'
+      },
+      {
+        text: 'Dzień kończę między 16:30, a 17:00.'
+      }
+    ]
   },
   {
     name: 'Marta',
     items: [
       {
-        text: 'Mój dzień? Niezwykle pracowity!\nWstaję około 7:00. Jem śniadanie – czasem to po prostu tosty/płatki na mleku (z zasadą: najpierw mleko potem płatki – nigdy na odwrót), a czasem bawię się w kucharza i przyrządzam szakszukę.',
+        text: 'Mój dzień? Niezwykle pracowity!'
+      },
+      {
+        text: 'Wstaję około 7:00. Jem śniadanie – czasem to po prostu tosty/płatki na mleku (z zasadą: najpierw mleko potem płatki – nigdy na odwrót), a czasem bawię się w kucharza i przyrządzam szakszukę.',
         gif: 'gif001.gif'
       },
       {
