@@ -52,7 +52,31 @@ export const stories: Story[] = [
   },
   {
     name: 'Basia',
-    items: []
+    items: [
+      {
+        text: 'Każdego dnia przemierzam meandry frontendu :)',
+        gif: 'journey.gif',
+      },
+      {
+        text: 'Dzień rozpoczynam od kubka gorącej kawy i rozmowy z zespołem.',
+        gif: 'coffee-friends.gif',
+      },
+      {
+        text:
+          'Kiedy kierunek jest ustalony rzucam się w wir zadań - od dodania ikon, poprzez wykreowanie nowych funkcjonalności dla użytkowników, aż po internacjonalizację… nie ma zadań niemożliwych, chociaz nie zawsze jest łatwo ;)',
+        gif: 'programming.gif',
+      },
+      {
+        text:
+          'Przeglądam setki linii kodu w poszukiwaniu nowych rozwiązań, które mogą mi się przydać w przyszłości, ale także w poszukiwaniu bugów. Codziennie uczę się czegoś nowego - nie tylko z dziedziny programowania, ale także biznesu.',
+        gif: 'learning.gif',
+      },
+      {
+        text:
+          'Staż udowodnił mi, że wystarczy chcieć i nie bać się wyzwań, a wszystko się uda!',
+        gif: 'adventure.gif',
+      },
+    ],
   },
   {
     name: 'Jacek',
