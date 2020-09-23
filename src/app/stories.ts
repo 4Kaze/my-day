@@ -98,7 +98,7 @@ export const stories: Story[] = [
         gif: 'cat-calling.gif'
       },
       {
-        text: 'i jeśli nie jest to jeden z tych wtorków, który jest serią wyczerpujacych spotkań, siadam do tego co lubię - kodowania.',
+        text: 'i jeśli nie jest to jeden z tych wtorków, który jest serią wyczerpujacych spotkań, siadam do tego co lubię - kodowania. Jako stażysta software engineering zajmuję się backendem i frontendem związanym z wyborem opcji dostawy.',
         gif: 'cat-typing.gif'
       },
       {
