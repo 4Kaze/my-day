@@ -132,11 +132,11 @@ export const stories: Story[] = [
     items: [
       {
         text: 'Mój dzień zazwyczaj zaczyna się pomiędzy 8.00 a 8.30 i każdego dnia czekają na mnie różnego rodzaju wyzwania.',
-        gif: ''
+        gif: 'wer1.gif'
       },
       {
         text: 'Jako członek zespołu order zajmuję się funkcjonalnościami w procesie zakupowym. O 9.20 widzimy się z zespołem na daily, następnie przez cały dzień zajmuję się powierzonymi zadaniami. Przez okres stażu zajmowałam się edycją zamówienia. Każdego dnia odbywa się również jakieś spotkanie, w którym z chęcią uczestniczę.',
-        gif: ''
+        gif: 'wer2.png'
       },
       {
         text: 'Obowiązkowo o godzinie 15 robię sobie krótką przerwę na kawę i coś słodkiego.'
