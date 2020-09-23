@@ -1,0 +1,35 @@
+$allegroOrange: #FF5A00;
+
+.scroll-button {
+  height: auto;
+  width: auto;
+  position:fixed;
+  bottom: 2em;
+  left: 2em;
+  background-color: white;
+  color: $allegroOrange;
+  border-color: $allegroOrange;
+  padding-bottom: .4em;
+  padding-top: .8em;
+  padding-left: .8em;
+  padding-top: .8em;
+}
+
+.scroll-button:hover {
+  color: #fff;
+  background-color: $allegroOrange;
+  border-color: $allegroOrange;
+}
+
+.scroll-button:focus {
+  box-shadow: 0 0 0 0.2rem $allegroOrange;
+}
+
+.scroll-button span {
+  padding: 0;
+  margin: 0;
+}
+
+.story-board {
+
+}

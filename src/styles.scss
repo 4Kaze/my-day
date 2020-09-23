@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+body {
+  background-color: #422779;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+a.nav-item {
+  color: white;
+}
+
+a.nav-item.active {
+  color: #FF5A00 !important;
+}
