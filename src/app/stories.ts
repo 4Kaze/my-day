@@ -11,11 +11,29 @@ export interface StoryItem {
 export const stories: Story[] = [
   {
     name: 'Ania S.',
-    items: []
+    items: [
+      {
+        text: 'Każdy mój dzień na stażu jest bardzo pracowity. Jako PM kalendarz od góry do dołu mam wypełniony spotkaniami, a ponadto ściśle współpracuję z niezwykle pomocnym zespołem, aby wdrożyć coraz to nowe rozwiązania na platformę. Także nie narzekam na nudę, gdyż każdy dzień stawia przede mną coraz to ciekawsze wyzwania oraz daje możliwości zdobycia nowej wiedzy i umiejętności. Dobrze tu być!',
+        gif: 'doggo.gif'
+      }
+    ]
   },
   {
     name: 'Ania W.',
-    items: []
+    items: [
+      {
+        text: 'Mój typowy dzień stażu zawsze wygląda inaczej. O 8:30 siedzę już przy biurku.',
+        gif: 'dziad.gif'
+      },
+      {
+        text: 'Jako testerka oprogramowania codziennie sprawdzam działanie jakiejś funkcjonalności albo uczę się pisać kod do testów.',
+        gif: 'computer.gif'
+      },
+      {
+        text: 'Codziennie spotykam się również z moim zespołem żeby omawiać bieżące i przyszłe zadania :)',
+        gif: 'teamwork.gif'
+      }
+    ]
   },
   {
     name: 'Basia',
@@ -68,7 +86,12 @@ export const stories: Story[] = [
   },
   {
     name: 'Marta',
-    items: []
+    items: [
+      {
+        text: 'Mój dzień? Niezwykle pracowity! Jako analityk danych pracuję w Excelu, tworzę ankiety i dzielę komentarze klientów na kategorie. Czy się nudzę? Nie mam na to czasu - choć zadań jest pełno, nigdy nie czuję się przytłoczona, a ich forma jest całkowicie różnorodna. Nuda i rutyna to coś co mnie nie dotyczy. Mam wspaniały zespół, który jest jak ekipa ratunkowa: zawsze gotowi do pomocy. Głupie pytanie? Zawsze jest na nie odpowiedź. Ten staż to ciągłe uświadamianie sobie, że mogę wiedzieć i umieć więcej.',
+        gif: 'marta.png'
+      }
+    ]
   },
   {
     name: 'Weronika',
